@@ -1,0 +1,47 @@
+
+spaceinvaders.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+boss
+  rotate: false
+  xy: 1, 15
+  size: 60, 41
+  orig: 60, 41
+  offset: 0, 0
+  index: -1
+explosion
+  rotate: false
+  xy: 63, 18
+  size: 50, 38
+  orig: 50, 38
+  offset: 0, 0
+  index: -1
+alien
+  rotate: false
+  xy: 115, 32
+  size: 40, 24
+  orig: 40, 24
+  offset: 0, 0
+  index: -1
+player
+  rotate: false
+  xy: 157, 16
+  size: 23, 40
+  orig: 23, 40
+  offset: 0, 0
+  index: -1
+shot
+  rotate: false
+  xy: 182, 31
+  size: 8, 25
+  orig: 8, 25
+  offset: 0, 0
+  index: -1
+bomb
+  rotate: false
+  xy: 1, 1
+  size: 4, 12
+  orig: 4, 12
+  offset: 0, 0
+  index: -1
