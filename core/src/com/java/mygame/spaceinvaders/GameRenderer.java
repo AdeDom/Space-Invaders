@@ -34,7 +34,7 @@ public class GameRenderer {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);// clear screen
 		if (myWorld.inGame) {
 			sb.begin();// start batch
-			sb.draw(imgSkyNight, 0, 0);// background
+			//sb.draw(imgSkyNight, 0, 0);// background
 
 			font.draw(sb, "Time: " + myWorld.gameTime, 10, SpaceInvaders.HEIGHT - 15);// time
 			font.draw(sb, "Live: " + myWorld.live, 10, 15);// live
